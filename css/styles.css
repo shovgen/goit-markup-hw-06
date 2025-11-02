@@ -377,3 +377,113 @@ letter-spacing: 0.02;
         display: none;
     }
 }
+
+
+/*hero-baner*/
+
+.hero-container{
+    width: 320px; 
+    height: 432px;
+    margin: 0 auto;
+}
+.hero-banner{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
+    font-weight: 320px;
+    line-height: 436px;
+    background-color: #2e2f42;
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.hero-banner-title{
+color: #ffF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding:72px 52px;
+    font-family: "Roboto", sans-serif;
+}
+.hero-banner-botton{
+color: #ffffff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ background-color: #4d5ae5;
+ cursor: pointer;
+border: none;
+border-radius: 4px;
+display: block;
+width: 169px;
+ height: 56px;
+line-height: 1.5;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.04em;
+margin-left:72px ;
+margin-bottom: 52px;
+
+}
+.hero-banner-botton:hover {
+    background-color: #404bbf;
+}
+
+.hero-banner-botton:focus {
+    background-color: #404BBF;
+}
+@media screen and (min-width: 768px) {
+    .hero-container {
+            width: 768px;
+            height: 432px;
+            margin: 0 auto;
+        }
+    .hero-banner{
+        font-weight: 768px;
+        line-height: 436px;
+    }
+    .hero-banner-title{
+        padding-top: 112px ;
+        padding-left: 136px;
+        font-size: 56px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        line-height: 1.1;  
+    }
+    .hero-banner-botton{
+    margin-left: 300px;
+    margin-bottom: 112px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .hero-container {
+        width: 1440px;
+        height: 600px;
+    }
+    
+    .hero-banner{
+    font-weight: 1440px;
+    text-align: center;
+    
+    }
+
+  .hero-banner-title{
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-top: 188px;
+    margin-bottom: 48px;
+    line-height: 60px;
+   
+    font-weight: 700;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+   
+  }
+  .hero-banner-botton{
+    margin-left: 636px;
+    margin-bottom: 188px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+
+}

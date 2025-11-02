@@ -317,11 +317,60 @@ letter-spacing: 0.02;
     fill: #ffffff;
     border: none;
 }
+
 .mobil-menu-nav{
     margin-bottom: auto;
 }
 .mobil-menu-nav .mobil-menu-list-item:not(:last-child){
     margin-bottom: 40px;
+}
+.mobil-menu-list-item{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.mobil-addres-list-link:hover,
+.mobil-addres-list-link:focus {
+    color: #404bbf;
+}
+.mobil-addres-list
+{
+    margin-bottom: 48px;
+}
+.mobil-addres-list-item{
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 24px;
+    
+}
+.mobil-addres-list-link:hover
+.mobil-addres-list-link:focus{
+    color: #4d5ae5;
+}
+
+.mobil-socials{
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    gap: 40px;
+    
+}
+.mobil-socials-item{
+    width: 40px;
+        height: 40px;
+    background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.mobil-control{
+    fill: #f4f4fd;
 }
 @media screen and (min-width: 768px){
     .mobil-menu{

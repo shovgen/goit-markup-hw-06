@@ -385,6 +385,7 @@ letter-spacing: 0.02;
     width: 320px; 
     height: 432px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 .hero-banner{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -486,4 +487,116 @@ margin-bottom: 52px;
     font-size: 16px;
   }
 
+}
+
+
+/* ----- solutions-----*/
+@media screen and (max-width: 768px){
+    .solutions-list-box{
+        display: none;
+    }
+}
+.solutions{
+    padding: 48px 0;
+}
+@media screen and (min-width: 768px){
+    .solutions{
+        padding: 48px 0;
+    }
+}
+@media screen and (min-width: 1440px){
+    .solutions{
+        padding: 60px 0;
+    }
+}
+
+.solutions-list{
+display: flex;
+flex-wrap: wrap;
+gap: 72px;
+}
+@media screen and (min-width: 768px){
+    .solutions-list{
+        gap: 72px 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .solutions-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+}
+
+.solutions-list-item{
+border-radius: 0px 0px 4px 4px;
+align-items: center;
+justify-content: center;
+padding-right: 16px;
+padding-left: 16px;
+width: 356px;
+
+}
+@media screen and (min-width: 768px){
+    .solutions-list-item{
+        width: calc((100% - 24px * 1) / 2);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .solutions-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .solutions-list-box{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+   width: 264px;
+    background-color: #f4f4fd;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+    }
+}
+.solutions-list-item-title{
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.02em;
+text-align: center;
+ color: #2e2f42;
+line-height: 1.1;
+padding-bottom: 8px;
+}
+@media screen and (min-width: 768px){
+.solutions-list-item-title{
+text-align: left;
+}
+}
+@media screen and (min-width:1440px){
+.solutions-list-item-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+}
+.solutions-list-item-text{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+@media screen and (min-width: 768px){
+.solutions-list-item-text{
+font-size: 16px;
+}
+}
+@media screen and (min-width: 1440px) {
+    .solutions-list-item-text {
+    font-weight: 400;
+    }
 }

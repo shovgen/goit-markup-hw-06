@@ -931,6 +931,8 @@ flex-wrap: wrap;
     width: 1440px;
     margin-left: 156px;
     padding-left: 0px;
+    display: flex;
+    flex-direction: row;
      }
     .footer {
     font-weight: 1440px;

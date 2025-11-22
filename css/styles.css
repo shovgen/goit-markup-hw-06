@@ -398,7 +398,7 @@ letter-spacing: 0.02;
 }
 .hero-banner{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
+                rgba(46, 47, 66, 0.7)), url(../images/Dark-m.jpg);
     font-weight: 320px;
     line-height: 436px;
     background-color: #2e2f42;
@@ -407,6 +407,40 @@ letter-spacing: 0.02;
     background-position: center;
     margin: 0 auto;
 }
+@media screen and (min-resolution: 192dpi){
+    .hero-banner{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/Dark-m@2x.jpg);
+}
+}
+@media screen and (min-width: 768px){
+.hero-banner{
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/hero-t.jpg);
+}   
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-banner {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/hero-t@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-banner {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .hero-banner {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people@2x.jpg);
+    }
+}
+
 .hero-banner-title{
 color: #ffF;
     font-weight: 700;
@@ -625,6 +659,7 @@ font-size: 16px;
 .team{
     padding: 48px 0;
 background-color: #f4f4fd;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     margin: 0 auto;
 }
 @media screen and (min-width: 1440px){
@@ -646,7 +681,7 @@ margin-bottom: 72px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 32px;
+    gap: 72px;
     
     
 }
@@ -1162,6 +1197,12 @@ margin-right: 80px;
 .footer-container{
     justify-content: center;
 }
+@media screen and (min-width: 768px){
+    
+.footer-container{
+    justify-content: left;
+}
+}
    .footer-button {
       
        width: 288px;
@@ -1506,6 +1547,6 @@ input[type='checkbox']:checked+.modal-form-checkbox>.checkbox-span {
 }
 @media screen and (min-width: 768px){
     .button-submit{
-    margin-left: 104px;
+  justify-content: left;
     }
 }

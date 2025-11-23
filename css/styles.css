@@ -534,7 +534,7 @@ margin-bottom: 52px;
 
 
 /* ----- solutions-----*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .solutions-list-box{
         display: none;
     }
